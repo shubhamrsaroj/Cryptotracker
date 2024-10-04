@@ -1,0 +1,159 @@
+*{
+    font-family: "Monteserrat ",sans-serif;
+}
+
+
+
+#CryptoTracker{
+    position: absolute;
+    top:20px;
+    font-size: 20px;
+}
+
+
+#mynav{
+     
+     display: flex;
+     flex-direction: row;
+     border-bottom: solid;
+     border-color: whitesmoke;
+     width: 1340px;
+     height: 50px;
+     
+    }
+
+
+#rightnav{
+    
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+}
+
+#Home{
+    position: absolute;
+    left: 900px;
+    text-decoration: none;
+    top: 10px;
+}
+
+
+#Contact{
+    position: absolute;
+    left: 1010px;
+    text-decoration: none;
+    top: 10px;
+}
+
+#Search{
+    position: absolute;
+    left: 1130px;
+
+}
+
+#Search-box{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 23px;
+   height: 20px;
+   top: 8px;
+}
+
+#searchit{
+     position: absolute;
+     top: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border-color: 1px solid black;
+    background-color: whitesmoke;
+    width: 80px;
+    height: 30px;
+}
+
+
+tr:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#paginatedcontrol{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+#Prev{
+
+    background-color: gold;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+
+
+}
+
+#Next{
+
+    background-color: gold;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+
+    /* HTML: <div class="loader"></div> */
+/* Loader Styles */
+.loader {
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: 
+      radial-gradient(farthest-side,#ffa516 94%,#0000) top/8px 8px no-repeat,
+      conic-gradient(#0000 30%,#ffa516);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation: l13 1s infinite linear;
+}
+
+/* Centering the loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+
+@keyframes l13 { 
+    100% { 
+        transform: rotate(1turn);
+    }
+}
+
+/* HTML: <div class="loader-container"><div class="loader"></div></div> */
+
+tbody {
+    position: relative;
+    left: 75px;
+    border-color: 1px solid black;
+  }
+
+  .bordered-row td {
+    border: 1px solid whitesmoke;
+  }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+#CryptoTracker{
+    color: gold;
+    text-decoration: none;
+}
+
+
+
+
+
+</style>    
+</head>
+
+<body>
+
+      <nav id="mynav">
+        
+        <div id="leftnav">
+
+         <a id="CryptoTracker" href="index.html">CryptoTracker</a>
+
+        </div>
+
+        <div id="rightnav">
+       
+            <a id="Home" href="index.html">Home</a>
+            <a id="Contact" href="index.html">Contact </a>
+
+            <div id="Search">
+                <i class="fa-solid fa-magnifying-glass" id="searchit"></i>
+                <input type="text" placeholder="Search" id="Search-box" >
+            </div>
+
+        </div>
+
+
+      </nav>
+
+      <main>
+
+        <table id="crypto_table">
+           <thead>
+            <th>
+              #
+            </th>
+              <th>
+                Icon 
+              <th>
+                Name
+              </th>
+
+              <th>
+                Price
+                <i class="fa-solid fa-arrow-up" id="sort_asc"></i>
+                <i class="fa-solid fa-arrow-down" id="sort_desc"></i>
+
+              </th>
+
+              <th>
+                Volume
+                <i class="fa-solid fa-arrow-up" id="volume_asc"></i>
+                <i class="fa-solid fa-arrow-down" id="volume_desc"></i>
+                
+              </th>
+
+              <th>
+                Market Cap
+                <i class="fa-solid fa-arrow-up" id="market_asc"></i>
+                <i class="fa-solid fa-arrow-down" id="market_desc"></i>
+              </th>
+
+              <th>
+                Favourite
+              </th>
+
+
+
+           </thead>
+
+           <tbody>
+            
+
+          </tbody>
+
+        </table>
+
+        <section id="paginatedcontrol">
+            <button id="Prev">Prev</button>
+            <button id="Next">Next</button>
+            
+        </section>
+
+        <section id="loader-container">
+          
+          <section class="loader">
+
+          </section>
+
+        </section>
+
+      </main>
+
+    <script src="crypto.js"></script>
+
+</body>
+
+
+</html>
